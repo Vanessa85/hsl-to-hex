@@ -4,11 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vanessa M. Paco Ramos <vanessapr.85@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Vanessa85/hsl-to-hex.git"
+  },
+  "homepage": "https://github.com/Vanessa85/hsl-to-hex.git#readme",
+  "description": "",
   "dependencies": {
     "hsl-to-rgb-for-reals": "^1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
   }
 }
