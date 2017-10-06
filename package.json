@@ -1,9 +1,10 @@
 {
   "name": "@vanessapr85/hsl-to-hex",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert HSL colors to RGB colors in hex format",
   "main": "index.js",
   "scripts": {
+    "prepublish": "npm ls && npm test",
     "lint": "standard",
     "test": "npm run lint && tap --cov test"
   },
@@ -14,11 +15,11 @@
     "url": "git@github.com:Vanessa85/hsl-to-hex.git"
   },
   "homepage": "https://github.com/Vanessa85/hsl-to-hex.git#readme",
-  "description": "Convert HSL colors to RGB colors in hex format",
   "dependencies": {
     "hsl-to-rgb-for-reals": "^1.1.0"
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "standard": "^10.0.3",
+    "tap": "^10.7.2"
   }
 }
