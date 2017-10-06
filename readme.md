@@ -15,7 +15,7 @@ hsl(hue, saturation, luminosity) => String
 
 ## Example
 ```js
-const hsl = require('hsl-to-hex')
+const hsl = require('@vanessapr85/hsl-to-hex')
 var hue = 133
 var saturation = 40
 var luminosity = 60
